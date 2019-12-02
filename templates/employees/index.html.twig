@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Employees index{% endblock %}
+
+{% block body %}
+    <h1>Employees index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Organization</th>
+                <th>Second_name</th>
+                <th>First_name</th>
+                <th>Third_name</th>
+                <th>Date_of_birth</th>
+                <th>Inn</th>
+                <th>Snils</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for employee in employees %}
+            <tr>
+                <td>{{ employee.id }}</td>
+                <td>{{ employee.organization.name }}</td>
+                <td>{{ employee.secondName }}</td>
+                <td>{{ employee.firstName }}</td>
+                <td>{{ employee.thirdName }}</td>
+                <td>{{ employee.dateOfBirth ? employee.dateOfBirth|date('Y-m-d') : '' }}</td>
+                <td>{{ employee.inn }}</td>
+                <td>{{ employee.snils }}</td>
+                <td>
+                    <a href="{{ path('employees_show', {'id': employee.id}) }}">show</a>
+                    <a href="{{ path('employees_edit', {'id': employee.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="8">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('employees_new') }}">Create new</a>
+
+    {% include 'upload_form.html.twig' %}
+
+{% endblock %}
