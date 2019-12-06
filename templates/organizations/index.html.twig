@@ -1,18 +1,19 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Organizations index{% endblock %}
+{% block title %}Список организаций{% endblock %}
 
 {% block body %}
-    <h1>Organizations index</h1>
+    <h1>Список организаций</h1>
+    <a href="{{ path('organizations_index') }}">Список организаций</a>
+    <a href="{{ path('employees_index') }}">Список сотрудников</a>
 
     <table class="table">
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Name</th>
-                <th>Ogrn</th>
-                <th>Oktmo</th>
-                <th>actions</th>
+                <th>Название организации</th>
+                <th>ОГРН</th>
+                <th>ОКТМО</th>
             </tr>
         </thead>
         <tbody>
@@ -23,8 +24,8 @@
                 <td>{{ organization.ogrn }}</td>
                 <td>{{ organization.oktmo }}</td>
                 <td>
-                    <a href="{{ path('organizations_show', {'id': organization.id}) }}">show</a>
-                    <a href="{{ path('organizations_edit', {'id': organization.id}) }}">edit</a>
+                    <a href="{{ path('organizations_show', {'id': organization.id}) }}">Подробнее</a>
+{#                    <a href="{{ path('organizations_edit', {'id': organization.id}) }}">edit</a>#}
                 </td>
             </tr>
         {% else %}
@@ -34,6 +35,6 @@
         {% endfor %}
         </tbody>
     </table>
-
-    <a href="{{ path('organizations_new') }}">Create new</a>
+    {% include 'upload_form.html.twig' %}
+{#    <a href="{{ path('organizations_new') }}">Добавить нового сотрудника</a>#}
 {% endblock %}

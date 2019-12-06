@@ -19,6 +19,18 @@ class OrganizationsRepository extends ServiceEntityRepository
         parent::__construct($registry, Organizations::class);
     }
 
+//    public function findByName($name) : array
+//    {
+//        $em = $this->getEntityManager();
+//        $query = $em->createQuery(
+//            'SELECT o.id, o.name
+//            FROM App\Entity\Organizations o
+//            WHERE o.name = :name'
+//        )->setParameter('name', $name);
+//
+//        return $query->getResult();
+//    }
+
     // /**
     //  * @return Organizations[] Returns an array of Organizations objects
     //  */
@@ -36,15 +48,15 @@ class OrganizationsRepository extends ServiceEntityRepository
     }
     */
 
-    /*
-    public function findOneBySomeField($value): ?Organizations
+/*
+    public function findOneByName($value): ?Organizations
     {
         return $this->createQueryBuilder('o')
-            ->andWhere('o.exampleField = :val')
+            ->andWhere('o.name = :val')
             ->setParameter('val', $value)
             ->getQuery()
             ->getOneOrNullResult()
         ;
     }
-    */
+*/
 }

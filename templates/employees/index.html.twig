@@ -1,22 +1,23 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Employees index{% endblock %}
+{% block title %}Список сотрудников{% endblock %}
 
 {% block body %}
-    <h1>Employees index</h1>
+    <h1>Список сотрудников</h1>
+    <a href="{{ path('organizations_index') }}">Список организаций</a>
+    <a href="{{ path('employees_index') }}">Список сотрудников</a>
 
     <table class="table">
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Organization</th>
-                <th>Second_name</th>
-                <th>First_name</th>
-                <th>Third_name</th>
-                <th>Date_of_birth</th>
-                <th>Inn</th>
-                <th>Snils</th>
-                <th>actions</th>
+                <th>Организация</th>
+                <th>Имя</th>
+                <th>Отчество</th>
+                <th>Фамилия</th>
+                <th>Дата рождения</th>
+                <th>ИНН</th>
+                <th>СНИЛС</th>
             </tr>
         </thead>
         <tbody>
@@ -24,26 +25,26 @@
             <tr>
                 <td>{{ employee.id }}</td>
                 <td>{{ employee.organization.name }}</td>
-                <td>{{ employee.secondName }}</td>
-                <td>{{ employee.firstName }}</td>
-                <td>{{ employee.thirdName }}</td>
+                <td>{{ employee.firstname }}</td>
+                <td>{{ employee.middlename }}</td>
+                <td>{{ employee.lastname }}</td>
                 <td>{{ employee.dateOfBirth ? employee.dateOfBirth|date('Y-m-d') : '' }}</td>
                 <td>{{ employee.inn }}</td>
                 <td>{{ employee.snils }}</td>
                 <td>
-                    <a href="{{ path('employees_show', {'id': employee.id}) }}">show</a>
-                    <a href="{{ path('employees_edit', {'id': employee.id}) }}">edit</a>
+                    <a href="{{ path('employees_show', {'id': employee.id}) }}">Подробнее</a>
+{#                    <a href="{{ path('employees_edit', {'id': employee.id}) }}">edit</a>#}
                 </td>
             </tr>
         {% else %}
             <tr>
-                <td colspan="8">no records found</td>
+                <td colspan="8">Записей не найдено</td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
 
-    <a href="{{ path('employees_new') }}">Create new</a>
+{#    <a href="{{ path('employees_new') }}">Create new</a>#}
 
     {% include 'upload_form.html.twig' %}
 

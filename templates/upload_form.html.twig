@@ -1,3 +1,5 @@
+<h2>Загрузите файл, чтобы добавить новые данные в базу</h2>
+
 <form enctype="multipart/form-data" name="upload" action="{{ path('upload') }}" method="post">
     <input type="hidden" name="token" value="{{ csrf_token('upload') }}" /> <br>
     <input type="file" name="userfile" title="Choose file" /> <br>

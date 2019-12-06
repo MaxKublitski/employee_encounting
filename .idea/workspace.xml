@@ -2,90 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48025a4-494e-4d00-babb-0c6c205498da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/testtask.loc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/easy_log_handler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/mailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/notifier.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/secrets/prod/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/EmployeesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/OrganizationsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/UploadedFilesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Employees.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Organizations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/UploadedFiles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/EmployeesType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/OrganizationsType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20191201211014.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20191201225250.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/EmployeesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/OrganizationsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UploadedFilesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/FileUploader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/employees/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/employees/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/employees/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/employees/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/employees/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/employees/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/organizations/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/organizations/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/organizations/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/organizations/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/organizations/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/organizations/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/templates/bundles/TwigBundle/Exception/error.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/upload_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/.idea/Controller.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/OrganizationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/OrganizationsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UploadedFilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UploadedFilesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Employees.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Employees.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/EmployeesType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/EmployeesType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/OrganizationsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/OrganizationsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/employees/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employees/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/employees/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employees/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/organizations/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/organizations/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/organizations/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/organizations/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/upload_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/upload_form.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,8 +153,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../marlin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/css" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\Frameworks\testtask.loc\public\css" />
+      <recent name="C:\OSPanel\domains\Frameworks\testtask.loc\src\Controller" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -252,7 +189,11 @@
       <workItem from="1575201147219" duration="913000" />
       <workItem from="1575210362011" duration="1470000" />
       <workItem from="1575232141511" duration="6761000" />
-      <workItem from="1575278543874" duration="15220000" />
+      <workItem from="1575278543874" duration="15822000" />
+      <workItem from="1575394268081" duration="1223000" />
+      <workItem from="1575466254354" duration="13761000" />
+      <workItem from="1575527523678" duration="11256000" />
+      <workItem from="1575617656350" duration="36339000" />
     </task>
     <servers />
   </component>
@@ -264,7 +205,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

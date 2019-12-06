@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
- * @Route("/organizations")
+ * @Route("/")
  */
 class OrganizationsController extends AbstractController
 {
@@ -55,6 +55,7 @@ class OrganizationsController extends AbstractController
     {
         return $this->render('organizations/show.html.twig', [
             'organization' => $organization,
+
         ]);
     }
 

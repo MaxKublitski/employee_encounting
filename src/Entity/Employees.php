@@ -21,17 +21,17 @@ class Employees
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $second_name;
+    private $firstname;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $first_name;
+    private $middlename;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $third_name;
+    private $lastname;
 
     /**
      * @ORM\Column(type="date", nullable=true)
@@ -58,38 +58,38 @@ class Employees
         return $this->id;
     }
 
-    public function getSecondName(): ?string
+    public function getFirstname(): ?string
     {
-        return $this->second_name;
+        return $this->firstname;
     }
 
-    public function setSecondName(?string $second_name): self
+    public function setFirstname(?string $firstname): self
     {
-        $this->second_name = $second_name;
+        $this->firstname = $firstname;
 
         return $this;
     }
 
-    public function getFirstName(): ?string
+    public function getMiddlename(): ?string
     {
-        return $this->first_name;
+        return $this->middlename;
     }
 
-    public function setFirstName(?string $first_name): self
+    public function setMiddlename(?string $middlename): self
     {
-        $this->first_name = $first_name;
+        $this->middlename = $middlename;
 
         return $this;
     }
 
-    public function getThirdName(): ?string
+    public function getLastname(): ?string
     {
-        return $this->third_name;
+        return $this->lastname;
     }
 
-    public function setThirdName(?string $third_name): self
+    public function setLastname(?string $lastname): self
     {
-        $this->third_name = $third_name;
+        $this->lastname = $lastname;
 
         return $this;
     }
@@ -140,5 +140,10 @@ class Employees
         $this->organization = $organization;
 
         return $this;
+    }
+
+    public function __toString(): string
+    {
+        return $this->getOrganization()->getId();
     }
 }
