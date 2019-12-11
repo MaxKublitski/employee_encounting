@@ -21,11 +21,10 @@ class EmployeesType extends AbstractType
             ->add('date_of_birth')
             ->add('inn')
             ->add('snils')
-//            ->add('organization', EntityType::class, [
-//                'multiple' => true,
-//                'class'    => OrganizationsType::class,
-//                'mapped' => true
-//            ])
+            ->add('organization', EntityType::class, [
+                'class'    => Organizations::class,
+                'choice_label' => 'name'
+            ])
         ;
     }
 

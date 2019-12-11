@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48025a4-494e-4d00-babb-0c6c205498da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/.idea/Controller.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/OrganizationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/OrganizationsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/UploadedFilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UploadedFilesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Employees.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Employees.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/EmployeesType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/EmployeesType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/OrganizationsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/OrganizationsRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/employees/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employees/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/employees/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employees/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/organizations/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/organizations/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/organizations/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/organizations/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/upload_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/upload_form.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +143,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -193,7 +181,8 @@
       <workItem from="1575394268081" duration="1223000" />
       <workItem from="1575466254354" duration="13761000" />
       <workItem from="1575527523678" duration="11256000" />
-      <workItem from="1575617656350" duration="36339000" />
+      <workItem from="1575617656350" duration="36622000" />
+      <workItem from="1576068721220" duration="63000" />
     </task>
     <servers />
   </component>
